@@ -1,0 +1,217 @@
+* {
+    color: white;
+}
+
+/* body {
+    background-color: #212529;
+} */
+
+#profileBanner, .navbar, #profileInfo, #profileKnownTools, #profileProyects {
+    /* background-color: #123e74; */
+    background-color: #0b1216;
+}
+
+.navbar a, #profileBanner .h1, #profileBannerLeftHr, #profileProyects h3 {
+    color: #0BB3D9;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+#profileBannerMiddle img {
+    position: relative;
+    left: -30px;
+}
+
+#profileSocials{
+    /* background-color: #0BB3D9; */
+    background-color: #091c27;
+    position: relative;
+    top: -80px;
+}
+
+#profileSocials .card {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#profileInfo {
+    background-color: #091c27;
+    margin-top: -115px;
+    /* margin-bottom: 100px; */
+    
+}
+
+#profileInfoFirstRow {
+    margin-bottom: 4rem !important;
+}
+
+#profileInfo .card-title {
+    color: #0BB3D9;
+}
+
+#profileInfo .card img {
+    height: 100%;
+}
+
+#profileInfoRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#profileKnownTools {
+    background-color: #091c27;
+    width: 90%;
+    position: relative;
+    top: -100px;
+}
+
+#carouselWrapper {
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 2s ease;
+}
+
+.carousel-card {
+    flex: 0 0 33.3333%; /* 3 cards visibles */
+    padding: 1rem;
+}
+
+.carousel-card .card img {
+    max-height: 200px;
+    object-fit: contain;
+}
+
+#profileProyects {
+    margin-top: -190px;
+}
+
+#profileProyects h3 {
+padding-top: 90px;
+}
+
+#profileProyects .card:hover {
+    background-color: #0BB3D9 !important;
+}
+
+/* Tablets (pantallas medianas) */
+@media (min-width: 768px) {
+
+#profileBannerMiddle img {
+    left: 140px;
+}
+
+    #profileInfo {
+    margin-top: -120px;
+}
+
+#profileSocials {
+    top: -70px;
+    height: 100px;
+}
+
+#profileSocials .card {
+    height: 75%;
+}
+
+#profileInfoFirstRow {
+    margin-bottom: 8rem !important;
+}
+
+#profileProyects {
+    margin-top: -260px;
+}
+
+#profileProyects row {
+    padding-top: 9rem !important;
+}
+
+#profileKnownTools {
+    width: 75%;
+    top: -130px;
+}
+
+#profileProyects h3 {
+padding-top: 130px;
+}
+
+@media (min-width: 1024px) {
+
+#profileBanner {
+    margin-bottom: -30px;
+}
+
+#profileBannerMiddle img {
+    left: -30px;
+}
+
+#profileInfo {
+    margin-top: -90px;
+}
+
+#profileSocials {
+    top: -50px;
+    height: 80px;
+}
+
+#profileSocials .card {
+    height: 75%;
+}
+
+#profileSocials .col-4 {
+    height: 60px;
+    width: 150px;
+}
+
+#profileKnownTools {
+    width: 75%;
+    top: -170px;
+}
+
+#profileProyects h3 {
+    padding-top: 110px;
+}
+
+#carouselWrapper {
+    height: 100px;
+}
+
+.carousel-card .card img {
+    max-height: 66px;
+
+}
+
+}
+
+@media (min-width: 1440px) {
+
+#profileBanner {
+    margin-bottom: 60px;
+}
+
+#profileBannerMiddle img {
+    left: 0px;
+}
+
+#profileInfo {
+    margin-top: -202px;
+    padding-top: 15px;
+}
+
+#profileSocials {
+    top: -150px;
+    height: 100px;
+}
+
+#profileSocials .card {
+    height: 100%;
+}
+}
+
+}
